@@ -1,0 +1,16 @@
+Doubly-Linked List Activity
+Start with: A <-> B <-> C <-> D  (HEAD = A, TAIL = D)
+
+Do these steps in order. Draw nodes and arrows for each step.
+
+1 Insert X at the head
+   Result: X <-> A <-> B <-> C <-> D
+
+2 Insert Y between B and C
+   Result: X <-> A <-> B <-> Y <-> C <-> D
+
+3 Remove D (the tail)
+   Result: X <-> A <-> B <-> Y <-> C
+
+4 Remove B
+   Result: X <-> A <-> Y <-> C
